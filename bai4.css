@@ -1,0 +1,109 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 24px 16px;
+    background-color: #ffffff;
+    color: #111111;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
+    line-height: 1.55;
+}
+
+.page {
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.exercise-title {
+    margin: 0 0 24px;
+    padding: 0 3px 4px;
+    background-color: #fbeeee;
+    border-bottom: 2px solid #b71c1c;
+    color: #b71c1c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.city-heading {
+    margin: 0 0 8px;
+    color: #1565c0;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.1;
+}
+
+.city-heading h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.city-heading p {
+    margin: 0;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.city-figure {
+    width: 70%;
+    margin: 0 auto 8px;
+}
+
+.city-figure img {
+    width: 80%;
+    height: 144px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.article p {
+    margin: 7px 0;
+    text-align: justify;
+}
+
+.drop-cap::first-letter {
+    float: left;
+    margin: 1px 4px 0 0;
+    color: #c62828;
+    font-size: 27px;
+    line-height: 0.85;
+    font-weight: 700;
+}
+
+.blue-bar {
+    margin: 8px 0 6px;
+    padding: 2px 7px;
+    background-color: #1565c0;
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: right;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 14px 12px;
+    }
+
+    .exercise-title {
+        font-size: 15px;
+    }
+
+    .city-figure {
+        width: 100%;
+    }
+
+    .city-figure img {
+        height: 220px;
+    }
+}

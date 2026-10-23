@@ -1,0 +1,23 @@
+body{
+    font-family: Arial;
+    margin: 20px;
+}
+.tour{
+    width: 90%;
+    margin: 20px;
+    padding: 20px;
+    background-color:#C9A227;
+    color:white;
+    text-align: justify;
+}
+h1{
+    text-align:center;
+    color:#FFFFFF;
+    text-shadow:2px 2px 3px gray;
+}
+img{
+    width: 120px;
+    float: right;   
+    margin-left: 10px;
+    border: 2px solid white;
+}

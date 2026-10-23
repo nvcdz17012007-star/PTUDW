@@ -1,0 +1,27 @@
+body{
+    font-family: Arial;
+}
+.khung{
+    width: 80%;
+    background-color: #FFFDE7;
+    margin:auto;
+    padding:20px;  
+    border: 1px solid #9E9E9E;  
+    text-align:center;
+}
+h1{
+    color: #D40000;
+    background-color:#FFD9E6;
+}
+.xanh{
+    color:#0033CC;
+    font-family:italic;
+}
+.do{
+    color:#D40000;
+    font-family:italic;
+}
+hr{
+    color:#0033CC;
+    width:55%;
+}
